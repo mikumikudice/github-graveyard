@@ -1,0 +1,24 @@
+[to Basic]
+
+#forloop in Bucket:
+
+    bucket open:
+
+        num limit as 1
+        num _mult as 2
+
+        for 32 times if limit smaller 16 do:
+
+            set: _mult to limit
+            make: _mult % 2
+
+            if _mult equals 0 do:
+                
+                show: '[0] loop' with limit
+                if limit unlike 16 do:; show: '{n}'; end.
+            end.
+
+            rise: limit
+        end l.
+    end m.
+close.
