@@ -1,0 +1,20 @@
+def 001 var
+def 002 hld
+def 003 tru
+
+def 032 phr
+chr phr 001 001
+
+int var 000 002
+int hld 000 002
+int tru 000 000
+
+lbl _go
+mul var var hld
+
+sml tru var 016
+
+ifs tru _go out
+lbl out
+
+ext

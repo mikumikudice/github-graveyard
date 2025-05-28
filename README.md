@@ -1,0 +1,2 @@
+# my abandoned coding projects a.k.a. GitHub Graveyard
+this is a collection of old projects I deleted from my github account and compiled here with other unpublished projects I left as a historical register. none will ever be used again, most likely. feel free to scrap its bits and use to whatever needs or interest you find. the old licenses are in its respective projects are still there, but the actual licensing is under [BUNNYWARE](LICENSE).

@@ -1,0 +1,32 @@
+; 16 mili sec clock
+; 40kb card space
+; 64 x 6 bits RAM
+
+; 000: input adress
+; 001: output adress
+
+def s a   ; slot | adress
+del s     ; slot
+
+bin s i v ; slot | index | value
+mov s v v ; slot | value | value
+sum s v v ; slot | value | value
+sub s v v ; slot | value | value
+mul s v v ; slot | value | value
+div s v v ; slot | value | value
+mod s v v ; slot | value | value
+
+ifs i l e ; int:vall int:true int:else
+jmp v v v ; int:vall
+lbl v v v ; int:vall
+
+cls c     ; int:colr
+get x y s ; int:xpos int:ypos slot
+pxl x y c ; int:xpos int:ypos int:colr
+snd f g c ; int:freq int:gain int:chnl
+
+int n v v ; name | vall (int val -99 999 | int val +99 999)
+flt n v v ; name | vall (flt val -999.99 | flt val +999.99)
+chr n v v ; name | vall (chr val 000 000 | chr val 111 111)
+
+ext
